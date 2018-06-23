@@ -31,6 +31,15 @@ This example returns the name of the first bookmark in Hello.doc.
 ```
 abook = Documents("Hello.doc").Bookmarks(1).Name
 ```
+## Example
+
+This example returns the name of the active document.
+
+
+```
+vDocName = ActiveDocument.Name
+MsgBox "The name of this document is = " & vDocName
+```
 
 
 ## See also
